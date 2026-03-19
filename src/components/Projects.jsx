@@ -2,9 +2,9 @@ import React from "react";
 // Syles
 import "./Projects.css";
 // Project Image
-import img1 from "../assets/image/project-img1.png";
-import img2 from "../assets/image/project-img2.png";
-import img3 from "../assets/image/project-img3.png";
+import img1 from "../assets/image/project-img3.jpg";
+import img2 from "../assets/image/project-img3.jpg";
+import img3 from "../assets/image/project-img3.jpg";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import ProjectsCard from "./ProjectsCard";
 import colorSharp from "../assets/image/color-sharp2.png";
@@ -12,34 +12,19 @@ import colorSharp from "../assets/image/color-sharp2.png";
 function Projects() {
   const projects = [
     {
-      title: "Portfolio",
-      description: "This is my portfolio website",
+      title: "Progetto ",
+      description: "questo è un progetto",
       img: img1,
     },
     {
-      title: "Portfolio",
-      description: "This is my portfolio website",
-      img: img2,
-    },
-    {
-      title: "Portfolio",
-      description: "This is my portfolio website",
-      img: img3,
-    },
-    {
-      title: "Portfolio",
-      description: "This is my portfolio website",
+      title: "Progetto ",
+      description: "questo è un progetto",
       img: img1,
     },
     {
-      title: "Portfolio",
-      description: "This is my portfolio website",
-      img: img2,
-    },
-    {
-      title: "Portfolio",
-      description: "This is my portfolio website",
-      img: img3,
+      title: "Progetto ",
+      description: "questo è un progetto",
+      img: img1,
     },
   ];
 

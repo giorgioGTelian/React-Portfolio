@@ -54,7 +54,7 @@ function NavBar() {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Skills
+                Progetti
               </Nav.Link>
               <Nav.Link
                 href="#projects"
@@ -65,21 +65,17 @@ function NavBar() {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Projects
+                Chi siamo
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <span className="social-icons">
-                {/* Github */}
-                <a href="https://github.com/aliakbarzohour">
-                  <i class="bi bi-github"></i>
-                </a>
                 {/* LinkedIn */}
-                <a href="https://linkedin.com/in/aliakbarzohour">
+                <a href="https:ciao.com">
                   <i class="bi bi-linkedin"></i>
                 </a>
                 {/* Instagram */}
-                <a href="https://instagram.com/ali.akbarzohour">
+                <a href="https:ciao.com">
                   <i class="bi bi-instagram"></i>
                 </a>
               </span>
@@ -89,7 +85,7 @@ function NavBar() {
                   console.log("is Clicked .");
                 }}
               >
-                Let's Connect
+                sentiamoci!
               </button>
             </span>
           </Navbar.Collapse>

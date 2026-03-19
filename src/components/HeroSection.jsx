@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 // Bootstrap Icons
 import * as Icon from "react-bootstrap-icons";
 // Hero Section image
-import headerImg from "../assets/image/header-img.svg";
+import headerImg from "../assets/image/chaos.svg";
 // Style for the Hero Section
 import "./HeroSection.css";
 
@@ -15,7 +15,7 @@ function HeroSection() {
   // Define the state for the deleting text
   const [deleting, setDeleting] = useState(false);
   // Define to rotate the text
-  const toRotate = ["Web Developer", "Front-End Teacher", "DevOps Engineer"];
+  const toRotate = ["Warhammer40k", "AOS", "Old World", "GTr"];
   // Define the state for the replaced text
   const [Text, setText] = useState("");
   // Make delte the text
@@ -70,10 +70,10 @@ function HeroSection() {
           <Row>
             {/* Col */}
             <Col xs={12} md={6} xl={7}>
-              <span className="tagline">Welcome To My Portfolio</span>
+              <span className="tagline">Benvenuti nel nostro spazio virtuale</span>
               <h1>
                 {/* My Name */}
-                {`Hi Im Aliakbar Zohour`}
+                {`Ciao Siamo il grifone`}
                 <br />
                 {/* Typed Effect */}
                 <span className="wrap">{Text}</span>
@@ -90,7 +90,7 @@ function HeroSection() {
                   console.log("home btn is clicked .");
                 }}
               >
-                Let's Connect <Icon.ArrowRightCircle size={25} />{" "}
+                Sentiamoci <Icon.ArrowRightCircle size={25} />{" "}
               </button>
             </Col>
             {/* Col */}

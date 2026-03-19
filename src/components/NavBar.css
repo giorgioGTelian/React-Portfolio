@@ -105,7 +105,7 @@ nav.navbar.scrolled .navbar-text .social-icons a {
 }
 
 .navbar-text button::before {
-    content: "Let's Connect";
+    content: "sentiamoci";
     display: flex;
     justify-content: center;
     align-items: center;
